@@ -61,4 +61,4 @@ jobs:
         aws deploy create-deployment --application-name indiego
         --deployment-config-name CodeDeployDefault.AllAtOnce
         --deployment-group-name indiego-group
-        --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=deploy-test.zip
+        --s3-location bucket=indiego-bucket,bundleType=zip,key=deploy-test.zip
