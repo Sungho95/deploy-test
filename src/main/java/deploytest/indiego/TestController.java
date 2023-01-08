@@ -16,4 +16,13 @@ public class TestController {
 
         return "hello!";
     }
+
+    @GetMapping("/hello")
+    public String hello2() {
+
+        System.out.println("제발 되라고");
+        System.out.println("이번에 안되면 바지에");
+
+        return "우리가 해냈다~!";
+    }
 }
